@@ -194,3 +194,22 @@ li a {
 .social {
   background-color: #FFBA33;
 }
+
+/* login page */
+.img-login {
+  width: 682px;
+  height: 800px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.component-form {
+  padding-right: 110px;
+  margin-left: 50px;
+}
+.text-brown {
+  color: #6A4029;
+}
+.btn-yellow {
+  background-color: #FFBA33;
+}
