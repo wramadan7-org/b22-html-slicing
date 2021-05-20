@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login</title>
+  <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+  <link href="../assets/styles/style.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+  <div class="flex flex-row relative">
+    <div class="flex flex-1 justify-center items-center">
+      <img src="../assets/images/content/bg-login.png" class="img-login">
+    </div>
+
+    <div class="flex flex-1 flex-col mt-10">
+      <div class="flex flex-row">
+        <div class="flex flex-1 flex-row pl-7 font-bold items-center">
+          <img src="../assets/images/logo/coffee 1.png" class="logo-navbar"/>
+          Coffe Shop
+        </div>
+        
+        <div class="flex flex-1 justify-center">
+          <button class="btn-register text-brown font-medium text-sm hover:bg-yellow-500">Sign Up</button>
+        </div>
+      </div>
+
+      <div class="flex justify-end items-center mt-20">
+        <div class="flex flex-col w-full items-center">
+          <div class="text-brown font-bold text-black text-3xl">
+            Login
+          </div>
+  
+          <div class="w-full pl-10 mt-10">
+            <form class="component-form">
+              <div class="my-10">
+                <div class="font-bold text-sm text-black mb-2">
+                  Email Address:
+                </div>
+                <input type="email" name="email" placeholder="Enter your email address" class="w-full h-14 border-2 rounded-xl items-center pl-5 shadow-md">
+              </div>
+              
+              <div class="my-10">
+                <div class="font-bold text-sm text-black mb-2">
+                  Password:
+                </div>
+                <input type="password" name="password" placeholder="Enter your password address" class="w-full h-14 border-2 rounded-xl items-center pl-5 shadow-md">
+              </div>
+
+              <div class="text-brown font-bold text-lg mb-7">
+                Forgot password?
+              </div>
+
+              <div class="flex flex-col mt-7">
+                <button class="btn-yellow font-bold text-brown text-lg w-full h-16 items-center rounded-full shadow-md border-2 mb-5 hover:bg-yellow-500">Login</button>
+
+                <button class="text-black text-lg font-bold w-full h-16 items-center rounded-full shadow-xl border-2 hover:bg-gray-100">Login with Google</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="flex flex-1 position-absolute-login-regis absolute bg-white shadow-2xl rounded-xl">
+      <div class="flex flex-1 flex-row justify-center items-center px-10">
+        <div class="flex flex-1 flex-col">
+          <div class="font-bold text-5xl mb-5">
+            Get your member card now!
+          </div>
+
+          <div class="font-normal text-gray-500">
+            Let's join with our member and enjoy the deals.
+          </div>
+        </div>
+
+        <div class="flex flex-1 justify-center items-center">
+          <button class="btn-yellow text-brown font-bold text-lg w-80 h-16 rounded-xl hover:bg-yellow-500">Create Now</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="content-middle content-gray pt-52 flex flex-row">
+    <!-- bawah kiri -->
+    <div class="flex flex-col flex-1">
+      <div class="flex flex-row items-center font-bold text-lg">
+        <img src="../assets/images/logo/coffee 1.png" class="logo-navbar"/>
+        Coffe Shop
+      </div>
+
+      <div class="font-normal text-gray-400 text-sm mt-10 w-64 mb-5">
+        Coffee Shop is a store that sells some good meals, and especially coffee. We provide high quality beans
+      </div>
+
+      <div class="flex flex-row justify-between items-center w-40">
+        <div class="social w-10 h-10 rounded-full">
+
+        </div>
+
+        <div class="social w-10 h-10 rounded-full">
+
+        </div>
+
+        <div class="social w-10 h-10 rounded-full">
+
+        </div>
+      </div>
+
+      <div class="mt-5 font-normal text-gray-400 text-sm">
+        ©2020CoffeeStore
+      </div>
+    </div>
+
+    <!-- bawah kanan -->
+    <div class="flex flex-1 justify-center">
+      <!-- bawah kanan bagian kiri -->
+      <div class="flex flex-col mr-52">
+        <div class="font-bold text-sm text-black">
+          Product
+        </div>
+
+        <div class="text-xs text-gray-400 mt-10">
+          Download
+        </div>
+
+        <div class="text-xs text-gray-400 mt-3">
+          Pricing
+        </div>
+        
+        <div class="text-xs text-gray-400 mt-3">
+          Locations
+        </div>
+
+        <div class="text-xs text-gray-400 mt-3">
+          Countries
+        </div>
+
+        <div class="text-xs text-gray-400 mt-3">
+          Blog
+        </div>
+      </div>
+
+      <!-- bawah kanan bagian kanan -->
+      <div class="flex flex-col">
+        <div class="font-bold text-sm text-black">
+          Engage
+        </div>
+
+        <div class="text-xs text-gray-400 mt-10">
+          Coffe Shop ?
+        </div>
+
+        <div class="text-xs text-gray-400 mt-3">
+          FAQ
+        </div>
+        
+        <div class="text-xs text-gray-400 mt-3">
+          About Us
+        </div>
+
+        <div class="text-xs text-gray-400 mt-3">
+          Privacy Policy
+        </div>
+
+        <div class="text-xs text-gray-400 mt-3">
+          Terms of Service
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

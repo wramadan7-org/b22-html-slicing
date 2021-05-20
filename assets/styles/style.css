@@ -198,7 +198,7 @@ li a {
 /* login page */
 .img-login {
   width: 682px;
-  height: 800px;
+  height: 1000px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -212,4 +212,16 @@ li a {
 }
 .btn-yellow {
   background-color: #FFBA33;
+}
+.position-absolute-login-regis {
+  width: 990px;
+  height: 200px;
+  transform: translate(-50%, -50%);
+  top: 100%;
+  left: 50%;
+  right: 50%;
+  bottom: 1%;
+}
+.content-gray {
+  background-color: #F8F8F8;
 }
