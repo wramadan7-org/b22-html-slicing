@@ -213,6 +213,9 @@ li a {
 .btn-yellow {
   background-color: #FFBA33;
 }
+.btn-brown {
+  background-color: #6A4029;
+}
 .position-absolute-login-regis {
   width: 990px;
   height: 200px;
@@ -224,4 +227,18 @@ li a {
 }
 .content-gray {
   background-color: #F8F8F8;
+}
+.black {
+  background-color: black;
+  width: 20px;
+  height: 450px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+.brown {
+  background-color: #6A4029;
+  width: 20px;
+  height: 350px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
 }
