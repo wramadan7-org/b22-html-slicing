@@ -25,6 +25,7 @@ li a {
 } */
 .active {
   color: #6A4029;
+  font-weight: bold;
 }
 .btn-register {
   background-color: #FFBA33;
@@ -40,11 +41,11 @@ li a {
   height: 33px;
   margin-right: 10px;
 }
-.content {
+/* .content { */
   /* padding-right: 175px;
   padding-left: 200px; */
   /* height: 200px; */
-}
+/* } */
 .content-top {
   background-image: url(../images/content/bg-coffe.png);
   background-size: cover;
@@ -227,6 +228,13 @@ li a {
 }
 .content-gray {
   background-color: #F8F8F8;
+}
+.content-footer {
+  background-color: #F8F8F8;
+  padding-bottom: 15%;
+  padding-right: 175px;
+  padding-left: 200px;
+  padding-top: 200px;
 }
 .black {
   background-color: black;
