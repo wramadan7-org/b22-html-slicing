@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Profile</title>
+  <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+  <link href="../assets/styles/style.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+  <ul>
+    <div class="flex flex-row justify-center items-center">
+      <li class="float-left flex flex-row justify-center items-center">
+        <a href="#" class="flex flex-row justify-center items-center font-bold">
+          <img src="../assets/images/logo/coffee 1.png" class="logo-navbar"/>
+          Coffe Shop
+        </a>
+      </li>
+    </div>
+
+    <div class="flex flex-row justify-center items-center">
+      <li><a class="active" href="#">Home</a></li>
+      <li><a href="#">Product</a></li>
+      <li><a href="#">Your Cart</a></li>
+      <li><a href="#">History</a></li>
+    </div>
+
+    <div class="flex flex-row justify-between w-32 items-center">
+      <li>
+        <button class="rounded-full w-7 h-7 items-center flex justify-center">
+          <img src="../assets/images/icon/search.png" class="w-6 h-6">
+        </button>
+      </li>
+
+      <li>
+        <button class="w-10 h-10 rounded-md flex justify-center items-center">
+          <img src="../assets/images/icon/chat.png" class="w-5 h-5">
+        </button>
+      </li>
+
+      <li>
+        <button class="w-10 h-10 rounded-full flex justify-center items-center">
+          <img src="../assets/images/profile/viezh.png" class="w-7, h-7">
+        </button>
+      </li>
+    </div>
+  </ul>
+
+  <div class="content-profile px-52 pt-10 pb-32 flex flex-col bg-gray-100 relative">
+    <!-- name pages -->
+    <div class="text-3xl font-bold text-white">
+      User Profile
+    </div>
+
+    <!-- content atas -->
+    <div class="flex flex-row my-6">
+      <div class="relative flex flex-col mr-5 bg-white w-72 h-80 border-b-8 border-yellow-900 px-5 py-5 items-center justify-center rounded-xl">
+        <!-- profile -->
+        <div class="w-32 h-32 bg-black rounded-full items-center justify-center relative">
+          <img src="../assets/images/profile/zulaikah.png" class="w-32 h-32 rounded-full" >
+
+          <button class="absolute items-center flex justify-center w-8 h-8 rounded-full bg-yellow-900 right-0 bottom-0">
+            <img src="../assets/images/icon/2b.png" class="w-3 h-3" >
+          </button>
+        </div>
+
+        <div class="font-extrabold text-black text-xl mt-5">
+          Zulaikha
+        </div>
+
+        <div class="font-normal text-gray-400 text-sm">
+          zulaikha17@gmail.com
+        </div>
+
+        <div class="absolute bottom-2 font-normal text-gray-400 text-sm">
+          Has been ordered 15 products
+        </div>
+      </div>
+
+      <div class="relative flex flex-1 flex-col h-80 bg-white rounded-xl border-b-8 border-yellow-900 px-5 py-5">
+        <div class="text-xl text-gray-600 font-bold">
+          Contacts
+        </div>
+
+        <div class="my-6">
+          <form>
+            <div class="flex flex-row mb-16">
+              <div class="flex flex-col flex-1">
+                <label class="text-sm text-gray-400 font-normal">
+                  Email address:
+                </label>
+
+                <div class="flex flex-1 flex-row mr-10 border-b-2 border-gray-300">
+                  <input name="email" type="email" class="flex flex-1" >
+                </div>
+              </div>
+
+              <div class="flex flex-col flex-1">
+                <label class="text-sm text-gray-400 font-normal">
+                  Mobile phone:
+                </label>
+
+                <div class="flex flex-1 flex-row mx- border-b-2 border-gray-300">
+                  <input name="phone" type="text" class="flex flex-1" >
+                </div>
+              </div>
+            </div>
+
+            <div class="flex flex-row">
+              <div class="flex flex-col flex-1">
+                <label class="text-sm text-gray-400 font-normal">
+                  Delivery address:
+                </label>
+
+                <div class="flex flex-1 flex-row mr-10 border-b-2 border-gray-300">
+                  <textarea name="delivery-address" type="text" class="flex flex-1 resize" ></textarea>
+                </div>
+              </div>
+
+              <div class="flex flex-col flex-1">
+                
+              </div>
+            </div>
+          </form>
+        </div>
+
+        <button class="absolute flex justify-center rounded-full bg-yellow-900 w-10 h-10 items-center right-4 top-3">
+          <img src="../assets/images/icon/2b.png" class="w-3 h-3" >
+        </button>
+      </div>
+    </div>
+
+    <div class="flex flex-row">
+      <div class="relative flex flex-1 flex-col bg-white rounded-xl border-b-8 border-yellow-900 px-5 py-5">
+        <form>
+          <div class="text-xl text-gray-600 font-bold">
+            Details
+          </div>
+  
+          <div class="flex flex-row">
+            <div class="flex flex-col flex-1">
+              <div class="mt-5">
+                <label class="text-sm text-gray-400 font-normal">
+                  Display name:
+                </label>
+  
+                <div class="flex flex-1 flex-row mr-10 border-b-2 border-gray-300">
+                  <input name="name" type="text" class="flex flex-1" >
+                </div>
+              </div>
+
+              <div class="mt-5">
+                <label class="text-sm text-gray-400 font-normal">
+                  First name:
+                </label>
+  
+                <div class="flex flex-1 flex-row mr-10 border-b-2 border-gray-300">
+                  <input name="first-name" type="text" class="flex flex-1" >
+                </div>
+              </div>
+
+              <div class="mt-5">
+                <label class="text-sm text-gray-400 font-normal">
+                  Last name:
+                </label>
+  
+                <div class="flex flex-1 flex-row mr-10 border-b-2 border-gray-300">
+                  <input name="last-name" type="text" class="flex flex-1" >
+                </div>
+              </div>
+            </div>
+            
+  
+            <div class="flex flex-col w-40">
+              <div class="mt-5">
+                <label class="text-sm text-gray-400 font-normal">
+                  DD/MM/YY:
+                </label>
+  
+                <div class="flex w-40 flex-row mr-10 border-b-2 border-gray-300 items-center">
+                  <input name="birth" type="date" class="w-40" >
+                </div>
+              </div>
+
+              <div>
+                <div class="flex items-center mt-4 mr-4 mb-4">
+                  <input id="radio1" type="radio" name="radio" class="hidden" checked />
+                  <label for="radio1" class="flex items-center cursor-pointer text-lg text-gray-400">
+                   <span class="w-6 h-6 inline-block mr-2 rounded-full border border-grey flex-no-shrink"></span>
+                   Male</label>
+                 </div>
+              </div>
+
+              <div>
+                <div class="flex items-center mr-4 mb-4">
+                  <input id="radio2" type="radio" name="radio" class="hidden" />
+                  <label for="radio2" class="flex items-center cursor-pointer text-lg text-gray-400">
+                   <span class="w-6 h-6 inline-block mr-2 rounded-full border border-grey flex-no-shrink"></span>
+                   Female</label>
+                 </div>
+              </div>
+            </div>
+          </div>
+        </form>
+      </div>
+
+      <div class="flex flex-col items-center w-96">
+        <div class="font-bold text-xl text-white">
+          Do you want to save the change?
+        </div>
+
+        <button class="flex justify-center items-center h-12 w-64 btn-brown rounded-xl text-white font-bold text-lg mb-4 mt-5">
+          Save Change
+        </button>
+
+        <button class="flex justify-center items-center h-12 w-64 btn-yellow rounded-xl text-brown font-bold text-lg">
+          Cancle
+        </button>
+
+        <button class="flex justify-between px-5 items-center h-12 w-64 bg-white rounded-xl text-brown font-bold text-lg mt-7 mb-4">
+          <div>
+            Edit Password
+          </div>
+
+          <div>
+            >
+          </div>
+        </button>
+
+        <button class="flex justify-between px-5 items-center h-12 w-64 bg-white rounded-xl text-brown font-bold text-lg mb-4">
+          <div>
+            Logout
+          </div>
+
+          <div>
+            >
+          </div>
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <div class="content-footer pt-16 flex flex-row">
+    <!-- bawah kiri -->
+    <div class="flex flex-col flex-1">
+      <div class="flex flex-row items-center font-bold text-lg">
+        <img src="../assets/images/logo/coffee 1.png" class="logo-navbar"/>
+        Coffe Shop
+      </div>
+
+      <div class="font-normal text-gray-400 text-sm mt-10 w-64 mb-5">
+        Coffee Shop is a store that sells some good meals, and especially coffee. We provide high quality beans
+      </div>
+
+      <div class="flex flex-row justify-between items-center w-40">
+        <div class="social w-10 h-10 rounded-full">
+
+        </div>
+
+        <div class="social w-10 h-10 rounded-full">
+
+        </div>
+
+        <div class="social w-10 h-10 rounded-full">
+
+        </div>
+      </div>
+
+      <div class="mt-5 font-normal text-gray-400 text-sm">
+        ©2020CoffeeStore
+      </div>
+    </div>
+
+    <!-- bawah kanan -->
+    <div class="flex flex-1 justify-center">
+      <!-- bawah kanan bagian kiri -->
+      <div class="flex flex-col mr-52">
+        <div class="font-bold text-sm text-black">
+          Product
+        </div>
+
+        <div class="text-xs text-gray-400 mt-10">
+          Download
+        </div>
+
+        <div class="text-xs text-gray-400 mt-3">
+          Pricing
+        </div>
+        
+        <div class="text-xs text-gray-400 mt-3">
+          Locations
+        </div>
+
+        <div class="text-xs text-gray-400 mt-3">
+          Countries
+        </div>
+
+        <div class="text-xs text-gray-400 mt-3">
+          Blog
+        </div>
+      </div>
+
+      <!-- bawah kanan bagian kanan -->
+      <div class="flex flex-col">
+        <div class="font-bold text-sm text-black">
+          Engage
+        </div>
+
+        <div class="text-xs text-gray-400 mt-10">
+          Coffe Shop ?
+        </div>
+
+        <div class="text-xs text-gray-400 mt-3">
+          FAQ
+        </div>
+        
+        <div class="text-xs text-gray-400 mt-3">
+          About Us
+        </div>
+
+        <div class="text-xs text-gray-400 mt-3">
+          Privacy Policy
+        </div>
+
+        <div class="text-xs text-gray-400 mt-3">
+          Terms of Service
+        </div>
+      </div>
+    </div>
+  </div>
+  
+</body>
+</html>
