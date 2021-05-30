@@ -281,3 +281,10 @@ input[type="radio"]:checked + label{
    color: #6A4029;
    font-weight: bold;
 }
+.content-payment {
+  background-image: url(../images/content/bg-payment.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
